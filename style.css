@@ -124,3 +124,22 @@ body{
     height: 25%;
     background-color: black;
 }
+
+@media (max-width: 560px){
+    .clock{
+        width: 80%;
+        height: 40%;
+    }
+
+    .clock .hand.seconds{
+        height: 35%;
+    }
+
+    .clock .hand.minutes{
+        height: 30%;
+    }
+
+    .clock .hand.hours{
+        height: 22%;
+    }
+}
